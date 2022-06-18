@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  @apply bg-gray-100;
+  color-scheme: light;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+.modal-box{
+  @apply invisible opacity-0 cursor-grab;
+  transform: scale(1.025);
+  transition: opacity 0.5s ease-in-out, visibility 300ms linear 0.15s, transform 500ms ease-in-out;
+}
+.modal-box div{
+  @apply cursor-default;
+}
+.modal-box.show{
+  @apply visible opacity-100 scale-100;
+  transition: opacity 0.75s ease-in-out, visibility 300ms linear 0.15s, transform 0s ease-in-out;
+}
