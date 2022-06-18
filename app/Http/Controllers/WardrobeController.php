@@ -19,5 +19,24 @@ class WardrobeController extends Controller
         return view('wardrobe.index')->with('data', $data)->with('jenis', $jenis)->with('routeFilter', route('wardrobe.filter'))->with('routeDetail', route('wardrobe.detail'))->with('routeJenis', route('wardrobe.jenis'));
     }
 
+    public function create()
+    {
+        $jenis = JenisWardrobe::orderBy('id', 'DESC')->get();
+        return view('wardrobe.form')
+            ->with('pagetype', 'POST')
+            ->with('item', null)
+            ->with('jenis', $jenis)
+            ->with('route', route('wardrobe.store'));
+    }
+
+    public function store(Request $request)
+    {
+        $item = new Wardrobe();
+        $this->push($item, $request, 'POST');
+        // session()->flash('success', 'Wardrobe sudah disimpan. ');
+        return redirect(route('wardrobe.index'));
+    }
+
+    
 
 }
