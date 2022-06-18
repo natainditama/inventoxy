@@ -37,6 +37,31 @@ class WardrobeController extends Controller
         return redirect(route('wardrobe.index'));
     }
 
+    public function show($id)
+    {
+        $data = Wardrobe::find($id);
+        return view('wardrobe.detail')->with('data', $data)->render();
+    }
+
+    public function edit($id)
+    {
+        $jenis = JenisWardrobe::orderBy('id', 'DESC')->get();
+        $item = Wardrobe::find($id);
+        return view('wardrobe.form')
+            ->with('pagetype', 'PATCH')
+            ->with('item', $item)
+            ->with('jenis', $jenis)
+            ->with('route', route('wardrobe.update', $id));
+    }
+
+    public function update(Request $request, $id)
+    {
+        $item = Wardrobe::find($id);
+        $this->push($item, $request, 'PATCH');
+        session()->flash('info', 'Wardrobe sudah disimpan');
+        return redirect(route('wardrobe.index'));
+    }
+
     
 
 }
