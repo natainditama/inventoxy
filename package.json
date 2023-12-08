@@ -16,7 +16,7 @@
         "browser-sync-webpack-plugin": "^2.3.0",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-        "postcss": "^8.4.12",
+        "postcss": "^8.4.31",
         "tailwindcss": "^3.0.24"
     }
 }
