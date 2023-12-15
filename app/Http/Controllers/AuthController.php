@@ -32,7 +32,7 @@ class AuthController extends Controller
 
   public function signup()
   {
-    return view('signup')->with('route', route('signupPost'));
+    return view('auth.signup')->with('route', route('signupPost'));
   }
 
   public function signupProcces(Request $request)
