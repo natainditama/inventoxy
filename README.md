@@ -1,64 +1,158 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <h1>Inventoxy</h1>  
+  <p>
+    Open source inventory management build with Laravel! 
+  </p>
+
+<!-- Badges -->
+<p>
+  <a href="https://github.com/natainditama/inventoxy/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/natainditama/inventoxy" alt="contributors" />
+  </a>
+  <a href="https://github.com/natainditama/inventoxy">
+    <img src="https://img.shields.io/github/last-commit/natainditama/inventoxy" alt="last update" />
+  </a>
+  <a href="https://github.com/natainditama/inventoxy/network/members">
+    <img src="https://img.shields.io/github/forks/natainditama/inventoxy" alt="forks" />
+  </a>
+  <a href="https://github.com/natainditama/inventoxy/stargazers">
+    <img src="https://img.shields.io/github/stars/natainditama/inventoxy" alt="stars" />
+  </a>
+  <a href="https://github.com/natainditama/inventoxy/issues/">
+    <img src="https://img.shields.io/github/issues/natainditama/inventoxy" alt="open issues" />
+  </a>
+  <a href="https://github.com/natainditama/inventoxy/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/natainditama/inventoxy.svg" alt="license" />
+  </a>
 </p>
+   
+<h4>
+    <a href="https://github.com/natainditama/inventoxy/">View Demo</a>
+  <span> · </span>
+    <a href="https://github.com/natainditama/inventoxy">Documentation</a>
+  <span> · </span>
+    <a href="https://github.com/natainditama/inventoxy/issues/">Report Bug</a>
+  <span> · </span>
+    <a href="https://github.com/natainditama/inventoxy/issues/">Request Feature</a>
+  </h4>
+</div>
 
-## About Laravel
+<br />  
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<div align="center"> 
+  <img src="./public/screenshot.png" alt="screenshot" />
+</div>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<br />  
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<!-- About the Project -->
+## 📝 About the Project
 
-## Learning Laravel
+<!-- Features -->
+### 🌟 Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+This project includes the following features:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Product Management
+- Inventory Tracking
+- User Authentication
+- Advanced Search Options
+- Alerts and Notifications
 
-## Laravel Sponsors
+<!-- Color Reference -->
+### 🎨 Color Reference
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary Color | ![#1e40af](https://via.placeholder.com/10/1e40af?text=+) #1e40af |
+| Background Color | ![#f3f4f6](https://via.placeholder.com/10/f3f4f6?text=+) #f3f4f6 |
+| Text Color | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 
-### Premium Partners
+<!-- Env Variables -->
+### 🔑 Environment Variables
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- `DB_DATABASE` : Name of the database.
+- `DB_USERNAME` : The username to access the database.
+- `DB_PASSWORD` : The password to access the database.
 
-## Contributing
+<!-- Getting Started -->
+## 🚀 Getting Started
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<!-- Prerequisites -->
+### 🔧 Prerequisites
 
-## Code of Conduct
+- [PHP](https://www.php.net/)
+- [MySQL](https://www.mysql.com/)
+- [Composer](https://getcomposer.org/)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<!-- Run Locally -->
+### 🏃 Run Locally
 
-## Security Vulnerabilities
+Clone the project
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+```bash
+  git clone https://github.com/natainditama/inventoxy.git
+```
 
-## License
+Go to the project directory
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+  cd inventoxy
+```
+
+Install the dependencies
+
+```bash
+  composer install && yarn install
+```
+
+Define your environment file
+
+```bash
+  cp .env.example .env
+```
+
+Generate the application key
+
+```bash
+  php artisan key:generate
+```
+
+Start the local server
+
+```bash
+  php artisan serve
+```
+
+<!-- Contributing -->
+## 👋 Contributing
+
+<a href="https://github.com/natainditama/inventoxy/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=natainditama/inventoxy" />
+</a><br/>
+
+Contributions are always welcome!
+
+See [contributing.md](https://github.com/natainditama/inventoxy/blob/main/.github/CONTRIBUTING.md) for ways to get started.
+
+<!-- Code of Conduct -->
+### 📜 Code of Conduct
+
+Please read the [Code of Conduct](https://github.com/natainditama/inventoxy/blob/main/.github/CODE_OF_CONDUCT.md)
+
+<!-- License -->
+## ⚠️ License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/natainditama/inventoxy/blob/main/LICENSE) file for details
+
+<!-- Contact -->
+## 🤝 Contact
+
+Contact me for inquiries, suggestions, or contributions via the following channels:
+
+- [Email](mailto:natainditama.dev@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/natainditama)
+- [GitHub](https://github.com/natainditama)
+
+Thank you for your support, interest, feedback, and contributions!
